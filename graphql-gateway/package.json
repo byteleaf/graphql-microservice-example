@@ -1,0 +1,12 @@
+{
+  "name": "graphql-gateway",
+  "main": "gateway.js",
+  "scripts": {
+    "start": "node gateway.js"
+  },
+  "dependencies": {
+    "@apollo/gateway": "^0.21.4",
+    "apollo-server": "^2.19.0",
+    "graphql": "^15.4.0"
+  }
+}

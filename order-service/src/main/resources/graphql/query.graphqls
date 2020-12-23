@@ -1,0 +1,22 @@
+type Query {
+    orders: [Order!]!
+    order(id: ID!): Order
+}
+
+type Order {
+    id: ID!
+    title: String!
+    account: Account!
+    products: [Product!]!
+}
+
+type Account @key(fields: "id") @extends {
+    id: ID! @external
+    orders: [Order!]!
+}
+
+type Product @extends {
+    id: ID! @external
+}
+
+

@@ -1,0 +1,11 @@
+type Query {
+    accounts: [Account!]!
+    account(id: ID!): Account
+}
+
+type Account @key(fields: "id") {
+    id: ID!
+    firstname: String!
+    lastname: String!
+    password: String
+}
