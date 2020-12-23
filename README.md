@@ -10,7 +10,7 @@
 
 ## Playground  ##
 
-- Gateway [http://localhost:8080/playground](http://localhost:4000/playground)
+- Gateway [http://localhost:4000/playground](http://localhost:4000/playground)
 
 Single Services:
 
